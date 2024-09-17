@@ -209,10 +209,13 @@ The Sales Performance Dashboard includes the following key visuals:
 
 - What does the dashboard look like?
 
-![GIF of Power BI Dashboard](assets/images/top_uk_youtubers_2024.gif)
+![GIF of Power BI Dashboard](ScreenShots/VerifyUniqueness(ROW_ID).png )
 
-This shows the Top UK Youtubers in 2024 so far. 
+![GIF of Power BI Dashboard](ScreenShots/VerifyUniqueness(ROW_ID).png )
 
+![GIF of Power BI Dashboard](ScreenShots/VerifyUniqueness(ROW_ID).png )
+
+![GIF of Power BI Dashboard](ScreenShots/VerifyUniqueness(ROW_ID).png )
 
 ## DAX Measures
 
