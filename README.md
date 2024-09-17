@@ -92,7 +92,7 @@ FROM [SalesSuperStore].[dbo].[SalesSuperStore];
 
 ```
 ### Output 
-![Column count check](ScreenShots/Identify Missing Values.png)
+![sql img](ScreenShots/IdentifyMissingValues.png)
 
 - Check for Entire Row Duplicates
 ```sql
@@ -114,7 +114,7 @@ HAVING COUNT(*) > 1;
 
 ```
 ### Output 
-![Column count check](assets/images/2_column_count_check.png)
+![sql img](ScreenShots/ReplaceMissingValues.png)
 
 
 - Replace Missing Values (Profit is NULL)
@@ -126,7 +126,7 @@ SET
     [Profit] = ISNULL([Profit], 0); -- Replace missing profit with 0
 ```
 ### Output 
-![Column count check](assets/images/2_column_count_check.png)
+![sql img](ScreenShots/ReplaceMissingValues.png)
 
 - Check Data Types
 ```sql
@@ -141,7 +141,7 @@ WHERE TABLE_NAME = 'SalesSuperStore'
   AND TABLE_SCHEMA = 'dbo';
 ```
 ### Output 
-![Column count check](assets/images/2_column_count_check.png)
+![sql img](ScreenShots/CheckDataTypes.png)
 
 - Check Primary Key
 ```sql
@@ -159,7 +159,7 @@ WHERE tc.CONSTRAINT_TYPE = 'PRIMARY KEY'
   AND ku.TABLE_SCHEMA = 'dbo';  -- Adjust schema if necessary
 ```
 ### Output 
-![Column count check](assets/images/2_column_count_check.png)
+![sql img](ScreenShots/CheckPrimaryKey.png)
 
 - Verify Uniqueness (ROW_ID)
 ```sql
@@ -170,7 +170,7 @@ SELECT
 FROM [SalesSuperStore].[dbo].[SalesSuperStore];
 ```
 ### Output 
-![Column count check](assets/images/2_column_count_check.png)
+![sql img](ScreenShots/VerifyUniqueness(ROW_ID).png)
 
 - Creating a Primary Key on ROW_ID
 ```sql
@@ -179,8 +179,7 @@ ALTER TABLE [SalesSuperStore].[dbo].[SalesSuperStore]
 ADD CONSTRAINT PK_SalesSuperStore_ROW_ID PRIMARY KEY ([ROW_ID]);
 
 ```
-### Output 
-![Column count check](assets/images/2_column_count_check.png)
+
 
 - Verify Data Consistency
 ```sql
@@ -191,7 +190,7 @@ SELECT  * FROM [SalesSuperStore].[dbo].[SalesSuperStore];
 
 ```
 ### Output 
-![Column count check](assets/images/2_column_count_check.png)
+![sql img](ScreenShots/VerifyDataConsistency.png)
 
 
 
