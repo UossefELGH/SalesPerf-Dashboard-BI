@@ -114,7 +114,7 @@ HAVING COUNT(*) > 1;
 
 ```
 ### Output 
-![sql img](ScreenShots/ReplaceMissingValues.png)
+![sql img](ScreenShots/CheckforEntireRowDuplicates.png)
 
 
 - Replace Missing Values (Profit is NULL)
