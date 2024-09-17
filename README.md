@@ -1,8 +1,6 @@
 # Sales Performance Dashboard in Power BI
 
-
-
-![excel-to-powerbi-animated-diagram](assets/images/kaggle_to_powerbi.gif)
+![GIF of Power BI Dashboard](ScreenShots/dash_all_years.png )
 
 
 
@@ -192,31 +190,6 @@ SELECT  * FROM [SalesSuperStore].[dbo].[SalesSuperStore];
 ### Output 
 ![sql img](ScreenShots/VerifyDataConsistency.png)
 
-
-
-# Visualization 
-### Dashboard Creation in Power BI
-
-The Sales Performance Dashboard includes the following key visuals:
-
-- KPIs such as Total Profit, Total Sales, and Total Quantity Sold.
-- Total sales over time with slicers for date and product category.
-- Top-selling products and their contribution to total sales.
-- map seles by state or region
-
-
-## Results
-
-- What does the dashboard look like?
-
-![GIF of Power BI Dashboard](ScreenShots/VerifyUniqueness(ROW_ID).png )
-
-![GIF of Power BI Dashboard](ScreenShots/VerifyUniqueness(ROW_ID).png )
-
-![GIF of Power BI Dashboard](ScreenShots/VerifyUniqueness(ROW_ID).png )
-
-![GIF of Power BI Dashboard](ScreenShots/VerifyUniqueness(ROW_ID).png )
-
 ## DAX Measures
 
 ### 1. Total Sales (M)
@@ -272,6 +245,31 @@ IF(
 ```sql
 Total Discount = SUM(SelesSuperStore[Discount])
 ```
+
+# Visualization 
+### Dashboard Creation in Power BI
+
+The Sales Performance Dashboard includes the following key visuals:
+
+- KPIs such as Total Profit, Total Sales, and Total Quantity Sold.
+- Total sales over time with slicers for date and product category.
+- Top-selling products and their contribution to total sales.
+- map seles by state or region
+
+
+## Results
+
+- What does the dashboard look like?
+
+![GIF of Power BI Dashboard](ScreenShots/dash_2017.png )
+
+![GIF of Power BI Dashboard](ScreenShots/top_selle.png )
+
+![GIF of Power BI Dashboard](ScreenShots/map.png )
+
+So far So good 
+
+
 
 
 # Files Included
